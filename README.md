@@ -3,6 +3,9 @@
 🚀 **Overview**  
 This project is an interactive quiz application developed with **Angular**, inspired by the personality tests typically found on **BuzzFeed**. The goal is to create a quiz where the user selects from various question options, and in the end, the system reveals the result based on the answers, telling whether the user would be a **hero** or a **villain**. The application uses Angular's features to ensure a smooth and interactive user experience.
 
+![image-initial](src/assets/imgs/image.png)
+![image-result](src/assets/imgs/image-result.png)
+
 📋 **Features**  
 - 🎮 **Interactive Quiz**: The user selects from several options to answer the questions.  
 - ⚡ **Personalized Result**: At the end of the quiz, the system displays whether the user would be a hero or villain based on the provided answers.  
@@ -23,9 +26,6 @@ This project is an interactive quiz application developed with **Angular**, insp
 
 **Steps**  
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/angular-buzzfeed-quiz.git
 
 2. Navigate to the project directory:
 
@@ -81,9 +81,6 @@ Este projeto é uma aplicação de quiz interativa desenvolvida com **Angular**,
 
 **Passos**  
 1. Clone o repositório:
-
-bash
-git clone https://github.com/seu-usuario/angular-buzzfeed-quiz.git
 
 2. Navegue até o diretório do projeto:
 
