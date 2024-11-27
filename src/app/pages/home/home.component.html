@@ -1,0 +1,19 @@
+<div class="home__container">
+    <div class="home__title">
+        <app-title [title]="data.title"></app-title>
+    </div>
+
+    <div class="home__question">
+        <app-question *ngIf="!showAnswer()" [question]="questionSelected"></app-question>
+    </div>
+
+    <div *ngIf="!showAnswer()" class="home__options">
+        <app-option (selectedEvent)="selected(i)" *ngFor="let option of optionsSelected; let i = index"
+            [name]="option.name" class="home__options__option"></app-option>
+    </div>
+
+    <div *ngIf="showAnswer()" class="home__answer">
+        <app-answer (backEvent)="back()" [aliasFinal]="aliasFinal"></app-answer>
+    </div>
+
+</div>
