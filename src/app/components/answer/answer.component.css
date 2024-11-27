@@ -1,0 +1,33 @@
+.answer__container {
+    width: 100%;
+    background-color: rgb(25, 1, 54);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer__container > h3 {
+    font-size: 1.5rem;
+}
+
+.answer__container__back-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow: 5px 5px 10px black;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.answer__container__back-button:active{
+    position: relative;
+    top: 1px;
+}
+
+.answer__container__back-button:hover{
+    background-color: rgb(92, 141, 19);
+}
